@@ -6,7 +6,7 @@ import useLenis from "./hooks/useLenis";
 // Components
 import Loader from "./components/Loader/Loader";
 import CustomCursor from "./components/Cursor/CustomCursor";
-import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
+// import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
 
 // Pages
 import Home from "./pages/Home";
@@ -37,7 +37,7 @@ function App() {
     <div className="w-full min-h-screen bg-black overflow-x-hidden">
       {/* Global Effects */}
       <CustomCursor />
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
 
       {/* Navbar */}
       <Navbar />
